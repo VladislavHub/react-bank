@@ -1,0 +1,38 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: absolute;
+    bottom: 46px;
+    left: calc(50% - 167px);
+}
+
+.button {
+    display: flex;
+    padding: 20px 140px;
+    border-radius: 12px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    transition: opacity 0.7s;
+    
+    &_main {
+        background-color: #775CE5;
+        color: white;
+    }
+
+    &_secondary {
+        background-color: white;
+        color: #775CE5;
+        border: 1px solid #775CE5;
+    }
+}
+
+.button:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,41 @@
+.status_bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 26px 14px 27px;
+}
+
+.status_bar-time {
+    display: flex;
+    width: 54px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.status_bar-info {
+    display: flex;
+    gap: 8px;
+}
+
+.status_bar-battery {
+    background-image: url("./svg/battery.svg");
+    width: 28px;
+    height: 13px;
+    background-repeat: no-repeat;
+}
+
+.status_bar-wifi {
+    background-image: url("./svg/wifi.svg");
+    width: 17px;
+    height: 12px;
+    background-repeat: no-repeat;
+}
+
+.status_bar-cellular {
+    background-image: url("./svg/cellular.svg");
+    width: 20px;
+    height: 12px;
+    background-repeat: no-repeat;
+}
